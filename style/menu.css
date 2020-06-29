@@ -66,6 +66,11 @@
     margin-left: 20px;
 }
 
+.fa-user-circle:before {
+    content: "\f2bd";
+    font-size: 35px;
+}
+
 .barra{
     position: fixed;
     left: -1200px;
@@ -100,11 +105,6 @@
     } 
     .nav-link{
         margin-left: 60px;
-    }
-
-    .navbar .fa-user-circle{
-        font-size: 40px;
-        margin-right: -1%;
     }
 
     .cont-lateral{
@@ -163,6 +163,12 @@
     margin-left: 5px;
 }
 
+@media screen and (max-width: 1001px){
+    .cont-lateral h2 {
+        margin-left: 23%;
+        width: 100%;
+    }
+}
 .rodape{
     background: linear-gradient(rgb(25, 219, 254),rgb(113, 92, 186));
         width: 100%;
