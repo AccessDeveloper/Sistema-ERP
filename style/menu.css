@@ -10,8 +10,15 @@
     width: 100vw;
     height: 10vh;
     margin-bottom: 10vh;
-    align-items: center;
     z-index: 2;
+    padding: 0px 0px;
+    align-items: center;
+}
+
+.navbar .fa-user-circle{
+    font-size: 40px;
+    margin-right: 10%;
+    
 }
 
 .meio{
@@ -28,8 +35,8 @@
     padding-top: 0px;
     display: flex;
     flex-direction: column;
-    min-height: 80vh;
     margin-top: 15vh;
+    min-height: 90vh;
 }
 
 .cont-lateral{
@@ -61,7 +68,7 @@
 
 .barra{
     position: fixed;
-    left: -900px;
+    left: -1200px;
     transition: all 0.4s linear;
     background-color: white;
     width: 40%;
@@ -69,10 +76,22 @@
     box-shadow: 2px 2px 8px rgb(34, 32, 32);
 }
 
+@media screen and (min-width: 1001px){
+    .areafunc{
+        margin-left: 100px;
+    }
+}
+
 @media screen and (max-width: 1001px){
+
+    .logo{
+        height: 8vh;
+        margin: 0px;
+    }
+
         .barra{
         position: fixed;
-        left: -900px;
+        left: -1200px;
         transition: all 0.4s linear;
         background-color: white;
         width: 100%;
@@ -82,6 +101,12 @@
     .nav-link{
         margin-left: 60px;
     }
+
+    .navbar .fa-user-circle{
+        font-size: 40px;
+        margin-right: -1%;
+    }
+
     .cont-lateral{
         width: 100%;
         display: flex;
@@ -93,10 +118,18 @@
         box-shadow: 1px 3px 5px black;
     }
     
-.cont-lateral h2{
-    margin-left: 20%;
-    width: 100%;
-}
+    .nav-link{
+        margin-left: 60px;
+        z-index: 2;
+        background-color: white;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .cont-lateral h2{
+        margin-left: 20%;
+        width: 100%;
+    }
 }
 
 .barra nav{
@@ -106,11 +139,13 @@
     overflow: auto;
 }
 #menu-lateral:checked ~ .barra {
-    transform: translateX(900px);
+    transform: translateX(1200px);
 }
 .barra nav ul li{
     margin-left: 25px;
     list-style-type: none;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .barra nav ul{
@@ -125,7 +160,7 @@
 
 .logo{
     height: 8vh;
-    margin: 0px 50px 0px 25px;
+    margin-left: 5px;
 }
 
 .rodape{
@@ -157,4 +192,24 @@
 
 .nav-link{
     margin-left: 60px;
+    z-index: 2; 
+    width: 100%;
+    margin-left: 0px;
+}
+
+
+footer
+{
+    background: linear-gradient(rgb(25, 219, 254),rgb(113, 92, 186));
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    margin: 0px;
+    color: white;
 }
