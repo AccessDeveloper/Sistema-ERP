@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px black;
+    align-items: center;
+    border-radius: 15px;
+    width: 35vw;
+    height: 70vh;
+    justify-content: center;
+}
+
+.card_top{
+    text-align: center;
+    
+}
+.imglogin{
+    height: 70px;
+    margin-bottom: 20px;
+}
+.card_group > label{
+    padding: 10px;
+    display: block;
+}
+
+
+.card_group > input {
+    border-radius: 10px;
+    width: 25vw;
+    padding: 7px;
+}
+
+.card_group button {
+    border-radius: 30px;
+    width: 25vw;
+    padding: 11px;
+    background: linear-gradient(rgb(25, 219, 254),rgb(113, 92, 186));
+    margin-top: 40px;
+    color: white;
+}
