@@ -11,28 +11,40 @@
     height: 10vh;
     margin-bottom: 10vh;
     align-items: center;
+    z-index: 2;
 }
 
 .meio{
     margin-top: 10vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     min-height: 90vh;
     width: 100%;
 }
 
 .cont{
-    width: 90vw;
+    width: 100%;
+    padding: 25px;
+    padding-top: 0px;
     display: flex;
     flex-direction: column;
     min-height: 80vh;
+    margin-top: 15vh;
 }
 
 .cont-lateral{
-    width: 10vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    min-height: 80vh;
+    justify-content: center;
+    height: 12vh;
+    background-color: white;
+    position: fixed;
+}
+
+.cont-lateral h2{
+    margin-left: 10%;
+    width: 100%;
 }
 
 #menu-lateral{
@@ -43,7 +55,6 @@
     cursor: pointer;
     position: fixed;
     z-index: 1;
-    padding-top: 15px;
     margin-left: 20px;
 }
 
@@ -51,8 +62,10 @@
     position: fixed;
     left: -900px;
     transition: all 0.4s linear;
-    background-color: #000000ab;
+    background-color: white;
     width: 40%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgb(34, 32, 32);
 }
 
 @media screen and (max-width: 1001px){
@@ -60,9 +73,29 @@
         position: fixed;
         left: -900px;
         transition: all 0.4s linear;
-        background-color: #000000ab;
+        background-color: white;
         width: 100%;
-    }   
+        border-radius: 5px;
+        box-shadow: 2px 2px 8px rgb(34, 32, 32);
+    } 
+    .nav-link{
+        margin-left: 60px;
+    }
+    .cont-lateral{
+        width: 100%;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        height: 12vh;
+        background-color: white;
+        box-shadow: 1px 3px 5px black;
+    }
+    
+.cont-lateral h2{
+    margin-left: 20%;
+    width: 100%;
+}
 }
 
 .barra nav{
@@ -94,10 +127,6 @@
     margin: 0px 50px 0px 25px;
 }
 
-
-
-
-
 .rodape{
     background: linear-gradient(rgb(25, 219, 254),rgb(113, 92, 186));
         width: 100%;
@@ -123,4 +152,8 @@
 
 .rodape ul li img{
     margin-right: 10%;
+}
+
+.nav-link{
+    margin-left: 60px;
 }
