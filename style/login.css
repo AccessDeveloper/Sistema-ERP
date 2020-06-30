@@ -54,3 +54,10 @@
     margin-top: 40px;
     color: white;
 }
+
+.card_group button a{
+    padding: 0px 5vw;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+}
