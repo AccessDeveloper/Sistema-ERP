@@ -12,7 +12,7 @@
     margin-bottom: 10vh;
     z-index: 2;
     padding: 0px 0px;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .navbar .fa-user-circle{
@@ -69,6 +69,8 @@
 .fa-user-circle:before {
     content: "\f2bd";
     font-size: 35px;
+    background-color: rgb(248, 249, 250);
+    border-radius: 10px;
 }
 
 .barra{
@@ -163,9 +165,18 @@
     margin-left: 5px;
 }
 
+.navbar-toggler {
+    padding: 5px 5px;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
 @media screen and (max-width: 1001px){
     .cont-lateral h2 {
-        margin-left: 23%;
+        margin-left: 25%;
         width: 100%;
     }
 }
@@ -203,6 +214,10 @@
     margin-left: 0px;
 }
 
+.navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
 footer
 {
