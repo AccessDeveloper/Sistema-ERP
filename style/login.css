@@ -40,7 +40,7 @@
 }
 
 
-.card_group > input {
+.card_group input {
     border-radius: 10px;
     width: 25vw;
     padding: 7px;
