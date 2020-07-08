@@ -24,19 +24,21 @@
         display: flex;
         flex-direction: column;
         width: 500px;
-        background-color: rgba(190, 245, 255, 0.699);
+        background:linear-gradient(90deg, #02111d 0%,#037bb5 50%,#02111d 100% );
         padding: 10px;
         box-shadow: 5px 5px 10px black;
         border-radius: 10px;
     }
     #main .forma-contato ul
     {
+        color: white;
         list-style: none;
     }
 
     #main .forma-contato ul li
     {
         padding: 4px 0px;
+        font-weight: 600;
     }
     #main .forma-contato ul li h2
     {

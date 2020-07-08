@@ -5,7 +5,7 @@
 
 .barra
 {
-    background-color: white;
+    background:linear-gradient(90deg, #076585 0%,#037bb5 50%,#5c9fc0 100% );
     box-shadow: 5px 5px 10px black;
     max-height: 89.5vh;
     width: 350px;
@@ -27,12 +27,12 @@
 {
     border-bottom: 2px solid black;
     margin: 0px 5px;
-
 }
 
 .barra .opcoes ul li a
 {
     font-size: 20px;
+    color: white;
 }
 
 #menu-lateral-abrir:checked ~ .barra {
@@ -63,9 +63,9 @@
 
 header
 {
+    background:linear-gradient(90deg, #5c9fc0 0%,#037bb5 50%, #076585 100%);
     height: 70px;
     width: 100%;
-    background-color: white;
     position: fixed;
     display: inline-flex;
     justify-content: space-between;
@@ -113,6 +113,7 @@ header
         color:  black;
         font-weight: 600;
         font-size: medium;
+        color: white;
     }
     header li
     {
@@ -185,3 +186,14 @@ header
         margin-right: 15px;
         z-index: 1;
     }
+
+
+.fa-user-circle, .fa-bars
+{
+    color: white;
+}
+
+.img-interna
+{
+    color: black;
+}

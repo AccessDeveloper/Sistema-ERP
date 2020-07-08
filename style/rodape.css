@@ -1,6 +1,6 @@
 footer
 {
-    background-color: rgb(90, 59, 126);    
+    background:linear-gradient(90deg, #02111d 0%,#037bb5 50%,#02111d 100% );   
     width: 100%;
     align-items: center;
     color: white;
