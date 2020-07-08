@@ -28,6 +28,11 @@
     border-radius: 15px;
 }
 
+.bloco-info li
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .info-pessoais
 {
     margin: 10px;
