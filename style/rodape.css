@@ -1,0 +1,16 @@
+footer
+{
+    background-color: rgb(90, 59, 126);    
+    width: 100%;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    align-items: center;
+}
+
+footer p
+{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
