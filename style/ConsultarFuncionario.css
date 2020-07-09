@@ -1,3 +1,5 @@
+/*responsivel até 305px de width*/
+
 #macro
 {
     display: flex;
@@ -21,11 +23,12 @@
 {
     padding: 15px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
     background:linear-gradient(90deg, #2c3e50 0%,#3498db 100% );
     border-radius: 15px;
+    width: 80%;
 }
 
 .bloco-info li
@@ -41,6 +44,14 @@
     color: white;
 }
 
+.dados
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .campos
 {
     font-weight: bolder;
@@ -51,43 +62,33 @@
     font-weight: normal;
 }
 
-@media screen and (max-width: 699px)
+@media screen and (max-width: 624px)
 {
-    .bloco-info
+    .dados
     {
-        display: flex;
         flex-direction: column;
-        justify-content:center;
-        background:linear-gradient(90deg, #2c3e50 0%,#3498db 100% );
-        border-radius: 15px;
+        align-items: center;
     }
-    .info-pessoais
+    .img-perfil
     {
-        margin: 30px;
-        padding: 0px;
-        list-style: none;
-        color: white;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .curriculo
+    {
+        height: 300px;
     }
 }
 
-@media screen and (max-width: 393px)
-{
-    .informacao
-    {
-        display: inline-block;
-    }
-}
-
-@media screen and (max-width: 387px)
+@media screen and (max-width: 692px)
 {
     .bloco-info
     {
-        align-items: center;
-        justify-content:center;
-        border-radius: 0px;
         width: 100%;
+        border-radius: 0px;
+        padding: 30px 0px;
     }
-
 }
 
 .btn-outline-secondary
@@ -99,4 +100,15 @@
 {
     text-decoration: none;
     font-weight: bolder;
+}
+
+.img-perfil
+{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.curriculo
+{
+    margin-top: 30px;
 }
