@@ -129,7 +129,7 @@ header
     }
 
 
-    @media screen and (max-width: 680px)
+    @media screen and (max-width: 689px)
     {
         .desaparecer
         {
@@ -158,7 +158,6 @@ header
         header .nav-link{
             padding-top: 0px;
         }
-
         header ul
         {
             display: none;

@@ -61,17 +61,18 @@
     font-weight: normal;
 }
 
-@media screen and (max-width: 624px)
+@media screen and (max-width: 470px)
 {
     .dados
     {
         flex-direction: column-reverse;
-        align-items: center;
+        align-items: flex-start;
     }
     .img-perfil
     {
         margin-top: 0px;
         margin-right: 0px;
+        margin-left: 15px;
     }
 
     .curriculo
@@ -87,6 +88,11 @@
         width: 100%;
         border-radius: 0px;
         padding: 30px 0px;
+    }
+
+    .bloco-info h1
+    {
+        margin-left: 10px;
     }
 }
 
