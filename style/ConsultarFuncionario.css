@@ -46,7 +46,6 @@
 
 .dados
 {
-    background-color: black;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -66,7 +65,7 @@
 {
     .dados
     {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
     .img-perfil
