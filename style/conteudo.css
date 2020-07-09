@@ -1,0 +1,38 @@
+/*responsivel até 305px de width*/
+
+.main
+{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+
+    margin-bottom: 50px;
+}
+
+.conteudo
+{
+    padding: 15px;
+    display: flex;
+    background:linear-gradient(90deg, #2c3e50 0%,#3498db 100% );
+    border-radius: 15px;
+    width: 80%;
+}
+
+
+@media screen and (max-width: 692px)
+{
+    .bloco-info
+    {
+        width: 100%;
+        border-radius: 0px;
+        padding: 30px 0px;
+    }
+}
+
+.conteudo #titulo-da-pagina
+{
+    color: white;
+}
