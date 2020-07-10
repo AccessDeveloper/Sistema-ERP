@@ -1,24 +1,5 @@
 /*responsivel até 305px de width*/
 
-#macro
-{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.main
-{
-    display: flex;
-    min-height: 60vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
-    margin-top: 130px;
-    margin-bottom: 50px;
-}
-
 .bloco-info
 {
     padding: 15px;
@@ -121,4 +102,9 @@
 .bloco-info h1
 {
     color: white;
+}
+
+.bloco-info{
+    justify-content: center;
+    align-items: center;
 }
