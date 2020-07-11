@@ -2,8 +2,6 @@
 <!-- Responsivo até 250px de width-->
 <html lang="pt-br">
 <head>
-
-    <link rel="stylesheet" href="../style/cadastrar.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -35,14 +33,18 @@
 
     <link rel="stylesheet" href="../style/rodape.css">
 
+    <link rel="stylesheet" href="../style/conteudo.css">
+
     <link rel="stylesheet" href="../style/macro.css">
+
+    <link rel="stylesheet" href="../style/cadastrar.css">
     
     <title>
         Cadastrar
     </title>
 </head>
 <body>
-    <div id = "macro2">
+    <div id = "macro">
         <header>
             <div class = menu-logo>
                 <input type="checkbox" id = "menu-lateral-abrir">
@@ -128,98 +130,59 @@
                 </div>
             </div>
         </header>
-    </div>
 
+        <div class = "main">
+            <div class = "conteudo">
+                <h1 id = "titulo-da-pagina">Cadastrar Funcionário</h1>
 
+                <label for=""></label>
+                <input class="form" type="text" placeholder="Nome:" >
 
+                <label for=""></label>
+                <input class="form" type="text" placeholder="Carteira de Trabalho:" >
 
+                <label for=""></label>
+                <input  class="form" type="text" placeholder="Cargo">
 
-
-
-
-    <div class="text1">
-        <h2>Cadastrar funcionário</h2>
-    </div>
-
-
-
-
-
-
-    <div class="container2">
-        <div class="preencher">
-
-            <div class="nome">
-                <input id="form" type="text" placeholder=" Nome " >
-            </div>
-
-            <div class="ct">
-                <input id="form" type="text" placeholder=" Carteira de Trabalho" >
-            </div>
-
-            <div class="cargo">
-                <input  id="form" type="text" placeholder=" Cargo">
-            </div>
-
-            <div class="cpf">
-                <input id="form" type="text" placeholder=" Cpf" >
-            </div>
-
-            <div class="cep">
-                <input id="form" type="text" placeholder=" Cep" >
-            </div>
-
-            <div class="endereço">
-                <input id="form" type="text" placeholder=" Endereço" >
-            </div>
-
-
-            <div class="date">
-                <input id="form" id="date" type="date">
-            </div>
+                <label for=""></label>
+                <input class="form" type="text" placeholder="CPF:">
             
+                <label for=""></label>
+                <input class="form" type="text" placeholder="Cep:">
+            
+                <label for=""></label>
+                <input class="form" type="text" placeholder="Endereço: " >
+                
+                <label for=""></label>
+                <input class="form" id="date" type="date">
+                
+                <label for=""></label>
+                <input class="form" type="text" placeholder="E-mail" >   
+                
+                <label for=""></label>
+                <input class="form" type="text" placeholder="Nome de Usuário">
 
+                <label for=""></label>
+                <input class="form" type="password" placeholder=" Senha" >
 
+                <label for=""></label>
+                <input class="form" type="text" placeholder="Confirmar Senha" >
+                
+                <div class="genero">
+                    <input type="radio" name = "sexo"> <p>Masculino</p>
+                    <input type="radio" name = "sexo"> <p>Feminino</p>
+                    <input type="radio" name = "sexo"> <p>Não binário</p>
+                </div>
 
-
-
-
-            <div class="email">
-                <input id="form" type="text" placeholder=" E-mail" >   
+                <button type="button" class="btn btn-primary">Primary</button>
             </div>
-
-            <div class="nmusuario">
-                <input id="form" type="text" placeholder=" Nome de Usuário">
-            </div>
-
-            <div class="senha">
-                <input id="form" type="password" placeholder="  Senha" >
-            </div>
-
-            <div class="confirmar s">
-                <input id="form" type="text" placeholder=" Confirmar Senha" >
-            </div>
-
-
-            <div class="genero">
-                <input type="radio"> <p>Masculino</p>
-                <input type="radio"> <p>Feminino</p>
-                <input type="radio"> <p>Não binário</p>
-            </div>
-
-            <div class="botao1">
-                <button><p  id="botao">Cadatrar-se</p></button>
         </div>
+        <footer>
+            <p>Order by @ Access - Todos os direitos reservados</p>
+            <p>São Pulo - SP</p>                    
+        </footer>
+
     </div>
-    </div>
-
-    <footer>
-        <p>Order by @ Access - Todos os direitos reservados</p>
-        <p>São Pulo - SP</p>                    
-    </footer>
-
-
-
-
-
 </body>
+
+</html
