@@ -1,0 +1,98 @@
+.conteudo{
+    align-items: center;
+    width: 550px;
+}
+
+/*.botao1 button{
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 350px;
+    background: linear-gradient(rgb(20, 223, 254) -60%, rgb(108, 107, 207) 140%);
+}*/
+
+
+.genero
+{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.genero p{
+    font-size: 14px;
+    margin: 0px 10px;
+    color: white;  
+}
+
+.form {
+    margin: 10px;
+    width: 85%;
+}
+
+input
+{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+input:focus
+{
+    outline: blueviolet;
+}
+
+.btn:not(:disabled):not(.disabled)
+{
+    margin-top: 25px;
+    padding: 8px 45px;
+    border: 2px solid gray;
+}
+
+@media screen and (max-width: 566px)
+{
+    .conteudo{
+        align-items: center;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .main
+    {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 368px)
+{
+    .conteudo{
+        padding-left: 0px;
+        padding-right: 0px;
+        background: white;;
+    }
+
+    input{
+        border: 1px solid gray;
+    }
+    .form {
+        margin: 10px;
+        width: 95%;
+    }
+
+    .genero p{
+        color: black;
+    }
+
+    .conteudo #titulo-da-pagina{
+        color: black;
+    }
+}
+
+@media screen and (max-width: 313px)
+{
+    .genero
+    {
+        margin-top: 15px;
+        flex-direction: column;
+    }
+}

@@ -905,11 +905,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro\\Desktop\\Sistema-ERP\\_api\\_api.csproj",
+      "projectUniqueName": "c:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\_api.csproj",
       "projectName": "_api",
-      "projectPath": "C:\\Users\\pedro\\Desktop\\Sistema-ERP\\_api\\_api.csproj",
+      "projectPath": "c:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\_api.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro\\Desktop\\Sistema-ERP\\_api\\obj\\",
+      "outputPath": "c:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",

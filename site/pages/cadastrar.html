@@ -1,15 +1,9 @@
-<!--Responsivo até 222px-->
-
 <!DOCTYPE html>
+<!-- Responsivo até 250px de width-->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
 
     <link rel="apple-touch-icon" sizes="57x57" href="../image/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../image/favicon/apple-icon-60x60.png">
@@ -29,46 +23,33 @@
     <meta name="msapplication-TileImage" content="../image/favicon/ms-icon-150x150.png">
     <meta name="theme-color" content="#ffffff">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="../style/index.css">
 
     <link rel="stylesheet" href="../style/munu.css">
 
-    <link rel="stylesheet" href="../style/conteudo.css">
-
     <link rel="stylesheet" href="../style/rodape.css">
+
+    <link rel="stylesheet" href="../style/conteudo.css">
 
     <link rel="stylesheet" href="../style/macro.css">
 
-    <link rel="stylesheet" href="../style/login.css">
+    <link rel="stylesheet" href="../style/cadastrar.css">
     
-    <title>Login</title>
-
+    <title>
+        Cadastrar
+    </title>
 </head>
 <body>
-<<<<<<< HEAD
-    <form class="form" action="">
-        <div class="caixa">
-            <div class="subcaixa">
-                <img class="imglogin" src="../image/logo.png" alt="">
-                <h2>Usuário</h2>
-            </div>
-                <div class="caixa grupal">
-                    <label>E-mail: </label>
-                    <input type="email" name="email" placeholder="digite seu email">
-                <div class="login">
-                <label>Senha: </label>
-                <input type="password" name="senha" placeholder="digite sua senha">
-                <div class="transferencia">
-                    <button type="submit">
-                        <a href="../pages/index.html">ACESSAR</a>
-                    </button>
-=======
     <div id = "macro">
         <header>
             <div class = menu-logo>
                 <input type="checkbox" id = "menu-lateral-abrir">
                 <label id = "icone-fa-bars" for = "menu-lateral-abrir">
-                    <i class="fas fa-bars">
-                    </i>
+                    <i class="fas fa-bars"></i>
                 </label>
 
                 <div class="barra">
@@ -146,43 +127,71 @@
                     <a class="dropdown-item" href="../pages/ConsutarFuncionario.html">Informações Pessoais</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="../pages/login.html">sair</a>
->>>>>>> 6b947a54c006c446d2ac139d2a6303d4a331269c
                 </div>
             </div>
         </header>
 
         <div class = "main">
             <div class = "conteudo">
+                <h1 id = "titulo-da-pagina">Cadastrar Funcionário</h1>
 
-                <i class="far fa-user-circle"></i>
-                
-                <label for="">Código do Funcionário: </label>
-                <input class = "form-control" type="text" name="" id="" placeholder="Digite seu usuario:">
-                
-                <label for="">Senha: </label>
-                <input class = "form-control" type="password" name="" id="" placeholder="digite sua senha:">
+                <label for=""></label>
+                <input class="form" type="text" placeholder="Nome:" >
 
-                
-                <button type="button" class="btn btn-primary">
-                    Entrar
-                </button>                
+                <label for=""></label>
+                <input class="form" type="text" placeholder="Carteira de Trabalho:" >
 
-                <button type="button" class="btn btn-link">
-                    Recuperar Senha
-                </button>
+                <label for=""></label>
+                <input  class="form" type="text" placeholder="Cargo">
+
+                <label for=""></label>
+                <input  class="form" type="text" placeholder="Agência/Conta bancaria">
+
+                <label for=""></label>
+                <input  class="form" type="text" placeholder="Código do banco">
+
+                <label for=""></label>
+                <input  class="form" type="text" placeholder="Salário bruto">
+
+                <label for=""></label>
+                <input class="form" type="text" placeholder="CPF:">
+            
+                <label for=""></label>
+                <input class="form" type="text" placeholder="Cep:">
+            
+                <label for=""></label>
+                <input class="form" type="text" placeholder="Endereço: " >
+                
+                <label for=""></label>
+                <input class="form" id="date" type="date">
+                
+                <label for=""></label>
+                <input class="form" type="text" placeholder="E-mail" >   
+                
+                <label for=""></label>
+                <input class="form" type="text" placeholder="Nome de Usuário">
+
+                <label for=""></label>
+                <input class="form" type="password" placeholder=" Senha" >
+
+                <label for=""></label>
+                <input class="form" type="text" placeholder="Confirmar Senha" >
+                
+                <div class="genero">
+                    <input type="radio" name = "sexo"> <p>Masculino</p>
+                    <input type="radio" name = "sexo"> <p>Feminino</p>
+                    <input type="radio" name = "sexo"> <p>Não binário</p>
+                </div>
+
+                <button type="button" class="btn btn-primary">Primary</button>
             </div>
         </div>
-
         <footer>
             <p>Order by @ Access - Todos os direitos reservados</p>
             <p>São Pulo - SP</p>                    
         </footer>
 
     </div>
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
-</html>
+
+</html
