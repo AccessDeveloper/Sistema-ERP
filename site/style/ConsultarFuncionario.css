@@ -46,7 +46,7 @@
 {
     .dados
     {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: flex-start;
     }
     .img-perfil
@@ -107,4 +107,44 @@
 .bloco-info{
     justify-content: center;
     align-items: center;
+}
+
+.grade-horario input{
+    display: none;
+}
+
+.barra-horario {
+    list-style: none;
+    display: none;
+    float: inline-end;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 10px;
+    border-radius: 5px;
+    float: left;
+}
+
+.barra-horario ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+#horario:checked ~ .barra-horario
+{
+    display: block;
+}
+
+.grade-horario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grade-horario p{
+    margin: 0px;
+    font-weight: 600;
+    padding: 5px;
+    padding-bottom: 0px;
 }
