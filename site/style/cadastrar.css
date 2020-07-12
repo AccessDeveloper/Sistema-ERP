@@ -19,10 +19,34 @@
     width: auto;
 }
 
+.titulogenero p{
+    color: white;
+    font-size: 17px;
+}
+
+.diastrabalhar{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.diastrabalhar p{
+    font-size: 14px;
+    margin: 0px 10px;
+    color: white; 
+}
+
+
+
 .genero p{
     font-size: 14px;
     margin: 0px 10px;
     color: white;  
+}
+
+.titulo p{
+    color: white;
+    font-size: 17px;
 }
 
 .form {
@@ -95,4 +119,9 @@ input:focus
         margin-top: 15px;
         flex-direction: column;
     }
+}
+
+#ft{
+    color: white;
+    margin-top: 10px;
 }
