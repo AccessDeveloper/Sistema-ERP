@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\_api.csproj": {}
+    "C:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\_api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\_api.csproj": {
+    "C:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\_api.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\_api.csproj",
         "projectName": "_api",
-        "projectPath": "c:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\_api.csproj",
+        "projectPath": "C:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\_api.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\obj\\",
+        "outputPath": "C:\\Users\\pedro\\Desktop\\9.TCC\\Sistema-ERP\\_api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
