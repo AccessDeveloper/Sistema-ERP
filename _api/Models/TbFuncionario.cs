@@ -20,10 +20,13 @@ namespace _api.Models
         [Column("id_funcionario")]
         public int IdFuncionario { get; set; }
         [Required]
+        [Column("ds_codigo", TypeName = "varchar(10)")]
+        public string DsCodigo { get; set; }
+        [Required]
         [Column("nm_funcionario", TypeName = "varchar(100)")]
         public string NmFuncionario { get; set; }
         [Required]
-        [Column("ds_rg", TypeName = "varchar(12)")]
+        [Column("ds_rg", TypeName = "varchar(20)")]
         public string DsRg { get; set; }
         [Required]
         [Column("ds_cpf", TypeName = "varchar(20)")]
@@ -31,22 +34,29 @@ namespace _api.Models
         [Column("dt_nascimento", TypeName = "date")]
         public DateTime DtNascimento { get; set; }
         [Required]
-        [Column("ds_endereco", TypeName = "varchar(30)")]
-        public string DsEndereco { get; set; }
+        [Column("tp_sexo", TypeName = "varchar(45)")]
+        public string TpSexo { get; set; }
         [Required]
-        [Column("ds_cep", TypeName = "varchar(10)")]
-        public string DsCep { get; set; }
+        [Column("ds_endereco", TypeName = "varchar(100)")]
+        public string DsEndereco { get; set; }
         [Column("ds_complemento", TypeName = "varchar(25)")]
         public string DsComplemento { get; set; }
+        [Required]
+        [Column("ds_cep", TypeName = "varchar(8)")]
+        public string DsCep { get; set; }
         [Required]
         [Column("ds_email", TypeName = "varchar(30)")]
         public string DsEmail { get; set; }
         [Required]
-        [Column("ds_telefone", TypeName = "varchar(30)")]
+        [Column("ds_telefone", TypeName = "varchar(20)")]
         public string DsTelefone { get; set; }
         [Required]
         [Column("ds_cargo", TypeName = "varchar(25)")]
         public string DsCargo { get; set; }
+        [Column("ds_curriculo", TypeName = "varchar(150)")]
+        public string DsCurriculo { get; set; }
+        [Column("ds_foto", TypeName = "varchar(150)")]
+        public string DsFoto { get; set; }
         [Required]
         [Column("nm_usuario", TypeName = "varchar(50)")]
         public string NmUsuario { get; set; }
