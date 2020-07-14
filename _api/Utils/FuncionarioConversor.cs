@@ -5,7 +5,6 @@ namespace _api.Utils
         public Models.TbFuncionario ConvertparaTbFuncionario (Models.Request.FuncionarioRequest funci){
             Models.TbFuncionario atual = new Models.TbFuncionario();
 
-            atual.DsCodigo = funci.codigo;
             atual.NmFuncionario = funci.funcionario;
             atual.DsCpf = funci.cpf;
             atual.DsRg = funci.rg;
@@ -19,6 +18,8 @@ namespace _api.Utils
             atual.DsCargo = funci.cargo;
             atual.DsCurriculo = funci.curriculo;
             atual.DsFoto = funci.foto;
+            atual.NmUsuario = funci.usuario;
+            atual.DsSenha = funci.senha;
 
             return atual;
         }

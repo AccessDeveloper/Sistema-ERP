@@ -30,5 +30,24 @@ namespace _api.Controllers
                 );
             }
         }
+
+        [HttpPost]
+        public ActionResult<Models.Response.FuncionarioResponse> InserirFuncionario (Models.Request.FuncionarioRequest funcionario)
+        {
+            try
+            {
+                Models.TbFuncionario novo = convert.ConvertparaTbFuncionario(funcionario);
+
+                Models.TbFuncionario adicionado = funcaorn.InserirFuncionario(novo);
+
+                return convert.ConvertparaResponse(adicionado);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(
+                        new Models.Response.Erro(400, ex.Message)
+                    );
+            }
+        }
     }
 }

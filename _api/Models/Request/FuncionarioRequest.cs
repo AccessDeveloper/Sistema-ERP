@@ -5,7 +5,6 @@ namespace _api.Models.Request
     public class FuncionarioRequest
     {
         public string funcionario { get; set; }
-        public string codigo { get; set; }
         public string rg  { get; set;}
         public string cpf  { get; set;}
         public DateTime nascimento  { get; set;}

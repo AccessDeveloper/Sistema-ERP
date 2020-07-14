@@ -1,1 +1,5 @@
 dotnet ef dbcontext scaffold "server=localhost;user id=root;password=45923617xx;database=bd_erp" Pomelo.EntityFrameworkCore.MySql -o Models --data-annotations --force
+
+
+
+selecionar diretorio cd
