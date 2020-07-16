@@ -18,7 +18,6 @@ namespace _api.Utils
             atual.DsCargo = funci.cargo;
             atual.DsCurriculo = funci.curriculo;
             atual.DsFoto = funci.foto;
-            atual.NmUsuario = funci.usuario;
             atual.DsSenha = funci.senha;
 
             return atual;
@@ -41,6 +40,7 @@ namespace _api.Utils
             atual.cargo = funci.DsCargo;
             atual.curriculo = funci.DsCurriculo;
             atual.foto = funci.DsFoto;
+            atual.senha = funci.DsSenha;
 
             return atual;
         }

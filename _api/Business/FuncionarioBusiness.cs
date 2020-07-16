@@ -24,7 +24,13 @@ namespace _api.Business
                 throw new ArgumentException("Campo nome do funcionario não foi preenchido.");
             if(string.IsNullOrEmpty(novo.DsCpf) && string.IsNullOrEmpty(novo.DsRg))
                 throw new ArgumentException("Documentos de identificação são obrigatórios (RG, CPF e Carteira de Trabalho.)");
-
+            if(novo.DtNascimento > DateTime.Now.AddYears(-16))
+                throw new ArgumentException ("Funcionario deve ter no minino 16 anos de idade.");
+            if(string.IsNullOrEmpty(novo.DsCargo))
+               throw new ArgumentException("Para cadastra o funcionario é nescessario o cargo que assumira.");
+            if(string.IsNullOrEmpty(novo.DsSenha))
+                throw new ArgumentException("Senha é obrigatória para realizar o cadastro de funcionario.");
+            
             return funcaobd.InserirFuncionario(novo);
         }
     }

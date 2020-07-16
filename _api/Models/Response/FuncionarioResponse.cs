@@ -19,7 +19,6 @@ namespace _api.Models.Response
         public string cargo { get; set; }
         public string curriculo  { get; set; }
         public string foto  { get; set; }
-        public string usuario { get; set; }
         public string senha { get; set; }
     }
 }

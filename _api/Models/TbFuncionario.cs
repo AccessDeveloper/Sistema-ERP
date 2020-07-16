@@ -42,7 +42,7 @@ namespace _api.Models
         [Column("ds_complemento", TypeName = "varchar(25)")]
         public string DsComplemento { get; set; }
         [Required]
-        [Column("ds_cep", TypeName = "varchar(8)")]
+        [Column("ds_cep", TypeName = "varchar(10)")]
         public string DsCep { get; set; }
         [Required]
         [Column("ds_email", TypeName = "varchar(30)")]
@@ -57,9 +57,6 @@ namespace _api.Models
         public string DsCurriculo { get; set; }
         [Column("ds_foto", TypeName = "varchar(150)")]
         public string DsFoto { get; set; }
-        [Required]
-        [Column("nm_usuario", TypeName = "varchar(50)")]
-        public string NmUsuario { get; set; }
         [Required]
         [Column("ds_senha", TypeName = "varchar(15)")]
         public string DsSenha { get; set; }

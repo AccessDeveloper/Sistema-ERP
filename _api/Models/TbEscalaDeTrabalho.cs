@@ -14,19 +14,19 @@ namespace _api.Models
         [Column("id_funcionario")]
         public int IdFuncionario { get; set; }
         [Column("bt_domingo")]
-        public sbyte BtDomingo { get; set; }
+        public bool BtDomingo { get; set; }
         [Column("bt_segunda")]
-        public sbyte BtSegunda { get; set; }
+        public bool BtSegunda { get; set; }
         [Column("bt_terca")]
-        public sbyte BtTerca { get; set; }
+        public bool BtTerca { get; set; }
         [Column("bt_quarta")]
-        public sbyte BtQuarta { get; set; }
+        public bool BtQuarta { get; set; }
         [Column("bt_quinta")]
-        public sbyte BtQuinta { get; set; }
+        public bool BtQuinta { get; set; }
         [Column("bt_sexta")]
-        public sbyte BtSexta { get; set; }
+        public bool BtSexta { get; set; }
         [Column("bt_sabado")]
-        public sbyte BtSabado { get; set; }
+        public bool BtSabado { get; set; }
         [Column("hr_entrada", TypeName = "time")]
         public TimeSpan HrEntrada { get; set; }
         [Column("hr_saida", TypeName = "time")]
